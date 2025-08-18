@@ -9,7 +9,7 @@ import theWell1 from "./assets/Img/theWell1.jpg";
 import rotch1 from "./assets/Img/rotch1.jpg";
 import herovideo from "./assets/Img/heroVideo.mp4";
 import theWell2 from "./assets/Img/theWell2.jpg";
-import dorAndBarak from "./assets/Img/dorAndBarakSet.jpg";
+import dorAndBarak from "./assets/Img/DorAndBarakSet.jpg";
 const profile = {
   stageName: "DJ Dor",
   tagline: "Electronic • House • Aro House • Techno",
