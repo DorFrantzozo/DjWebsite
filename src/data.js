@@ -12,7 +12,7 @@ import theWell2 from "./assets/Img/theWell2.jpg";
 import dorAndBarak from "./assets/Img/DorAndBarakSet.jpg";
 const profile = {
   stageName: "DJ Dor",
-  tagline: "Electronic • House • Aro House • Techno",
+  tagline: "Electronic • House • Afro House • Techno • MainStream ",
   city: "Tel Aviv, Israel",
   heroImage:
     "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?q=80&w=1974&auto=format&fit=crop", // תמונת רקע גדולה
