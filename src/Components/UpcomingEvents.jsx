@@ -28,10 +28,15 @@ const UpcomingEvents = () => {
             >
               <CardHeader className="pb-2">
                 <CardTitle className="text-base flex items-center gap-2">
-                  <CalendarDays className="h-5 w-5" /> {event.title}
+                  <div className=" flex gap-2 ">
+                    <div className="bg-gradient-to-tr -my-1 from-orange-600 via-orange-500 to-orange-400 p-2  rounded-full">
+                      <CalendarDays className="h-5 w-5  " />
+                    </div>
+                    {event.title}
+                  </div>
                 </CardTitle>
               </CardHeader>
-              <CardContent className="pt-0 text-white/70 text-sm">
+              <CardContent className="pt-0  text-white/70 text-lg">
                 <p>{event.date}</p>
                 <p>{event.location}</p>
                 <p>{event.hour}</p>
