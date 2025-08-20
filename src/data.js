@@ -10,6 +10,7 @@ import rotch1 from "./assets/Img/rotch1.jpg";
 import herovideo from "./assets/Img/heroVideo.mp4";
 import theWell2 from "./assets/Img/theWell2.jpg";
 import dorAndBarak from "./assets/Img/DorAndBarakSet.jpg";
+
 const profile = {
   stageName: "DJ Dor",
   tagline: "Electronic • House • Afro House • Techno • MainStream ",
@@ -35,6 +36,11 @@ const profile = {
       label: "Facebook",
       href: "https://www.facebook.com/profile.php?id=100004617544310",
       icon: Facebook,
+    },
+    {
+      label: "Linktree",
+      href: "https://linktr.ee/dorfrant",
+      icon: LinkIcon,
     },
     // { label: "Links", href: "https://linktr.ee/", icon: LinkIcon },
   ],
@@ -78,7 +84,6 @@ const events = [
 ];
 
 const mediaItems = [
-  { type: "image", src: dorAndBarak, alt: "Sunkiss Event" },
   {
     type: "video",
     src: herovideo,
@@ -90,6 +95,7 @@ const mediaItems = [
     src: theWell1,
     alt: "Event Image 1",
   },
+  { type: "image", src: dorAndBarak, alt: "Sunkiss Event" },
   {
     type: "image",
     src: rotch1,
