@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { X } from "lucide-react";
-import LiveSetCideo from "../assets/Img/LiveSetCideo.mp4";
+import liveSetVideo from "../assets/Img/liveSetVideo.mp4";
 
 const BentoGallery = ({ items }) => {
   const [selected, setSelected] = useState(null);
@@ -22,7 +22,8 @@ const BentoGallery = ({ items }) => {
 
       <div className="mb-20 ">
         <video
-          src={LiveSetCideo}
+          src={liveSetVideo}
+          alt="Live Set Video"
           preload="none"
           autoPlay
           loop
