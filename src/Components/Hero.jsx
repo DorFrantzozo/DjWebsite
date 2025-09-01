@@ -2,14 +2,14 @@ import React from "react";
 import { motion } from "framer-motion";
 import { Music2 } from "lucide-react";
 import { Button } from "./ui/button";
-import profilePic from "../assets/Img/profilePic.jpg";
+import profilePic from "../assets/Img/dorProfile.jpg";
 import banner from "../assets/Img/evyatarsPartsy.jpg";
 const Hero = ({ profile }) => {
   return (
     <>
-      <section className="relative isolate">
+      <section className="relative  -top-10 isolate">
         <div
-          className="absolute inset-0 -z-10"
+          className="absolute inset-0  -z-10"
           style={{
             backgroundImage: `url(${banner})`,
             backgroundSize: "cover",
@@ -24,12 +24,10 @@ const Hero = ({ profile }) => {
             viewport={{ once: true }}
             className="max-w-3xl"
           >
-            <div className="inline-flex items-center gap-2 rounded-full bg-white/60 hover:bg-white/70 transition duration-150 px-3 py-1 text-sm">
-              <Music2 className="h-4  w-4" /> DJ • Producer
-            </div>
             <h1 className="mt-6 text-4xl/tight sm:text-6xl/tight font-extrabold tracking-tight text-white">
               {profile.stageName}
             </h1>
+
             <p className="mt-3 text-lg text-white/80">{profile.tagline}</p>
             <p className="mt-1 text-sm text-white/60">{profile.city}</p>
 
@@ -38,7 +36,7 @@ const Hero = ({ profile }) => {
               <img
                 src={profilePic}
                 alt="Profile"
-                className="h-32 w-32 rounded-full ring-4 ring-white/20 object-cover"
+                className="h-32 w-32  rounded-full ring-4 ring-white/20 object-cover object-[80%_20%] shadow-lg"
               />
             </div>
 

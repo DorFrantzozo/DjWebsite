@@ -1,4 +1,4 @@
-import { Instagram } from "lucide-react";
+import { Instagram, Youtube } from "lucide-react";
 import { Facebook } from "lucide-react";
 import { AudioLines } from "lucide-react";
 import { LinkIcon } from "lucide-react";
@@ -12,7 +12,7 @@ import theWell2 from "./assets/Img/theWell2.jpg";
 import dorAndBarak from "./assets/Img/DorAndBarakSet.jpg";
 
 const profile = {
-  stageName: "DJ Dor",
+  stageName: "Dj DØR",
   tagline: "Electronic • House • Afro House • Techno • MainStream ",
   city: "Tel Aviv, Israel",
   heroImage:
@@ -31,6 +31,11 @@ const profile = {
       label: "Instagram",
       href: "https://www.instagram.com/dor_frantzozo/",
       icon: Instagram,
+    },
+    {
+      label: "youtube",
+      href: "https://www.youtube.com/@DjDorFr",
+      icon: Youtube,
     },
     {
       label: "Facebook",
@@ -52,32 +57,50 @@ const profile = {
 
 const events = [
   {
-    title: "The-Well",
-    date: "Aug 6, 2025",
-    location: "Rishon Lezion,  rothschild bvld 17",
+    title: "Paseo",
+    date: "Sep 1, 2025",
+    location: "Rishon Lezion,  Hatayelet St 6",
+    hour: "20:00",
+  },
+  {
+    title: "Sphera",
+    date: "Sep 4, 2025",
+    location: "Rehovot, Hamada St 18",
     hour: "21:00",
   },
   {
     title: "Rotch.64",
-    date: "Aug 7, 2025",
-    location: "Rishon Lezion,  rothschild bvld 64",
-    hour: "21:00",
-  },
-  {
-    title: "Rotch.64",
-    date: "Aug 8, 2025",
+    date: "Sep 5, 2025",
     location: "Rishon Lezion,  rothschild bvld 64",
     hour: "12:00",
   },
   {
     title: "Rotch.64",
-    date: "Aug 15, 2025",
+    date: "Sep 11, 2025",
+    location: "Rishon Lezion,  rothschild bvld 64",
+    hour: "21:00",
+  },
+  {
+    title: "Rotch.64",
+    date: "Sep 12, 2025",
+    location: "Rishon Lezion,  rothschild bvld 64",
+    hour: "12:00",
+  },
+  {
+    title: "vin and viande",
+    date: "Sep 18, 2025",
+    location: "Petah tikva,  Shacham St 1",
+    hour: "20:00",
+  },
+  {
+    title: "Rotch.64",
+    date: "Sep 19, 2025",
     location: "Rishon Lezion,  rothschild bvld 64",
     hour: "12:00",
   },
   {
     title: "Rotch.64",
-    date: "Aug 21, 2025",
+    date: "Sep 23, 2025",
     location: "Rishon Lezion,  rothschild bvld 64",
     hour: "21:00",
   },

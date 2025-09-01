@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { X } from "lucide-react";
+import LiveSetCideo from "../assets/Img/LiveSetCideo.mp4";
 
 const BentoGallery = ({ items }) => {
   const [selected, setSelected] = useState(null);
@@ -18,6 +19,19 @@ const BentoGallery = ({ items }) => {
   return (
     <section className="container mx-auto px-4 pb-20">
       <h2 className="text-2xl font-bold text-white mb-6">Featured</h2>
+
+      <div className="mb-20 ">
+        <video
+          src={LiveSetCideo}
+          preload="none"
+          autoPlay
+          loop
+          muted
+          playsInline
+          controls
+          className="w-full h-full rounded-2xl object-cover brightness-90"
+        />
+      </div>
 
       {groups.map((group, index) => (
         <div
