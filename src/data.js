@@ -10,6 +10,8 @@ import rotch1 from "./assets/Img/rotch1.jpg";
 import herovideo from "./assets/Img/heroVideo.mp4";
 import theWell2 from "./assets/Img/theWell2.jpg";
 import dorAndBarak from "./assets/Img/DorAndBarakSet.jpg";
+import shtobiya from "./assets/Img/shtobiya.jpg";
+import sunkissVid from "./assets/Img/VID-20250818-WA0003.mp4";
 
 const profile = {
   stageName: "Dj DØR",
@@ -57,50 +59,45 @@ const profile = {
 
 const events = [
   {
-    title: "Paseo",
-    date: "Sep 1, 2025",
-    location: "Rishon Lezion,  Hatayelet St 6",
+    title: "Sphera",
+    date: "October 8, 2025",
+    location: "Rehovot, Hamada St 18",
     hour: "20:00",
   },
   {
+    title: "Rotch.64",
+    date: "October 10, 2025",
+    location: "Rishon Lezion,  rothschild bvld 64",
+    hour: "12:00",
+  },
+  {
+    title: "Rotch.64",
+    date: "October 14, 2025",
+    location: "Rishon Lezion,  rothschild bvld 64",
+    hour: "21:00",
+  },
+  {
+    title: "Rotch.64",
+    date: "October 18, 2025",
+    location: "Rishon Lezion,  rothschild bvld 64",
+    hour: "21:00",
+  },
+  {
     title: "Sphera",
-    date: "Sep 4, 2025",
+    date: "October 21, 2025",
     location: "Rehovot, Hamada St 18",
     hour: "21:00",
   },
   {
-    title: "Rotch.64",
-    date: "Sep 5, 2025",
-    location: "Rishon Lezion,  rothschild bvld 64",
-    hour: "12:00",
-  },
-  {
-    title: "Rotch.64",
-    date: "Sep 11, 2025",
-    location: "Rishon Lezion,  rothschild bvld 64",
+    title: "Sphera",
+    date: "October 22, 2025",
+    location: "Rehovot, Hamada St 18",
     hour: "21:00",
   },
+
   {
     title: "Rotch.64",
-    date: "Sep 12, 2025",
-    location: "Rishon Lezion,  rothschild bvld 64",
-    hour: "12:00",
-  },
-  {
-    title: "vin and viande",
-    date: "Sep 18, 2025",
-    location: "Petah tikva,  Shacham St 1",
-    hour: "20:00",
-  },
-  {
-    title: "Rotch.64",
-    date: "Sep 19, 2025",
-    location: "Rishon Lezion,  rothschild bvld 64",
-    hour: "12:00",
-  },
-  {
-    title: "Rotch.64",
-    date: "Sep 23, 2025",
+    date: "October 24, 2025",
     location: "Rishon Lezion,  rothschild bvld 64",
     hour: "21:00",
   },
@@ -111,6 +108,11 @@ const mediaItems = [
     type: "video",
     src: herovideo,
     alt: "DJ Set Video",
+  },
+  {
+    type: "image",
+    src: shtobiya,
+    alt: "Event Image 3",
   },
   { type: "image", src: profilePic, alt: "Profile Picture" },
   {
@@ -124,16 +126,13 @@ const mediaItems = [
     src: rotch1,
     alt: "Rotch 64 Event Image",
   },
+
   {
     type: "video",
     src: vidSunkiss,
     alt: "Sunkiss Event Video",
   },
-  {
-    type: "image",
-    src: rotch1,
-    alt: "Rotch 64 Event Image",
-  },
+
   { type: "image", src: theWell2 },
   { type: "image", src: sunkiss, alt: "Sunkiss Event" },
 ];

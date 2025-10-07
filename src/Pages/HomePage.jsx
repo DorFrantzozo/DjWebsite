@@ -21,7 +21,9 @@ const HomePage = () => {
       <div className="mt-20">
         <BentoGallery items={mediaItems} />
       </div>
-      <Footer profile={profile} />
+      <div className="w-screen">
+        <Footer profile={profile} />
+      </div>
     </div>
   );
 };
