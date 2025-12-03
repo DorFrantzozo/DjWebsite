@@ -14,9 +14,9 @@ import shtobiya from "./assets/Img/shtobiya.jpg";
 import sunkissVid from "./assets/Img/VID-20250818-WA0003.mp4";
 
 const profile = {
-  stageName: "Dj DØR",
-  tagline: "Electronic • House • Afro House • Techno • MainStream ",
-  city: "Tel Aviv, Israel",
+  stageName: "Dj Frantzøzø",
+  tagline: "Electronic • Afro House • Indie Dance • House • MainStream ",
+  city: "Rishon Lezion, Israel",
   heroImage:
     "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?q=80&w=1974&auto=format&fit=crop", // תמונת רקע גדולה
 
@@ -60,45 +60,33 @@ const profile = {
 const events = [
   {
     title: "Sphera",
-    date: "October 8, 2025",
+    date: "December 4, 2025",
     location: "Rehovot, Hamada St 18",
     hour: "20:00",
   },
   {
-    title: "Rotch.64",
-    date: "October 10, 2025",
-    location: "Rishon Lezion,  rothschild bvld 64",
-    hour: "12:00",
-  },
-  {
-    title: "Rotch.64",
-    date: "October 14, 2025",
-    location: "Rishon Lezion,  rothschild bvld 64",
-    hour: "21:00",
-  },
-  {
-    title: "Rotch.64",
-    date: "October 18, 2025",
-    location: "Rishon Lezion,  rothschild bvld 64",
-    hour: "21:00",
-  },
-  {
     title: "Sphera",
-    date: "October 21, 2025",
+    date: "December 11, 2025",
     location: "Rehovot, Hamada St 18",
-    hour: "21:00",
+    hour: "20:00",
   },
   {
     title: "Sphera",
-    date: "October 22, 2025",
+    date: "December 18, 2025",
     location: "Rehovot, Hamada St 18",
     hour: "21:00",
   },
 
   {
-    title: "Rotch.64",
-    date: "October 24, 2025",
-    location: "Rishon Lezion,  rothschild bvld 64",
+    title: "Privete Party",
+    date: "December 20, 2025",
+    location: "Rishon Lezion, ",
+    hour: "21:00",
+  },
+  {
+    title: "Sphera",
+    date: "December 22, 2025",
+    location: "Rehovot, Hamada St 18",
     hour: "21:00",
   },
 ];
