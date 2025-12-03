@@ -26,7 +26,7 @@ const profile = {
   socials: [
     {
       label: "SoundCloud",
-      href: "https://soundcloud.com/dor-frantzozo",
+      href: "https://soundcloud.com/dor-fr",
       icon: AudioLines,
     },
     {
