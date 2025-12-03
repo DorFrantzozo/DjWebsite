@@ -10,7 +10,7 @@ import rotch1 from "./assets/Img/rotch1.jpg";
 import herovideo from "./assets/Img/heroVideo.mp4";
 import theWell2 from "./assets/Img/theWell2.jpg";
 import dorAndBarak from "./assets/Img/DorAndBarakSet.jpg";
-import shtobiya from "./assets/Img/shtobiya.jpg";
+import shtobiya from "./assets/Img/Shtobiya.jpg";
 import sunkissVid from "./assets/Img/VID-20250818-WA0003.mp4";
 
 const profile = {
