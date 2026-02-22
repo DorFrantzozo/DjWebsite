@@ -43,7 +43,7 @@ const UpcomingEvents = () => {
     },
   };
 
-  if (!events || events.length === 0) return null;
+  if (!Array.isArray(events) || events.length === 0) return null;
 
   return (
     <section className="container mx-auto px-4 pb-20">
